@@ -32,14 +32,14 @@ public class CermatiSignUpSteps {
     public void i_fill_the_phone_number() {
         WebElement textbox = driver.findElement(By.xpath("//input[@id='mobilePhone']"));
         textbox.clear();
-        textbox.sendKeys("081288047911");
+        textbox.sendKeys("081288047816");
     }
 
     @And("I fill the email")
     public void i_fill_the_email() {
         WebElement textbox = driver.findElement(By.xpath("//input[@id='email']"));
         textbox.clear();
-        textbox.sendKeys("coba8@gmail.com");
+        textbox.sendKeys("testing123@gmail.com");
     }
 
     @And("I fill first name")

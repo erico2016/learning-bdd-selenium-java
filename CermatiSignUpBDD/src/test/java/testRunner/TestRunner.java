@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/Users/erico/Documents/CODING/java/SeleniumCucumber/Features/cermati_signup.feature",
+        features = "src/resources/features/cermati_signup.feature",
         glue = "stepDefinitions",
         plugin = {"pretty","html:target/htmlReport.html"}
 )
